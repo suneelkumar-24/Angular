@@ -1,0 +1,112 @@
+angular is SPA:
+made by google
+mvc framework
+angular current version 13
+
+angular vs angular.js
+
+ng version to know the version
+
+ng serve
+
+Interpolation: use to display dynamic data in html using this {{}}
+what can do in Interpolation
+arithmetic operation, to show varibale value and also method function
+
+what cant do in Interpolation
+-cant change the value of a variable
+-cant able to know the typeof of variable,
+-increment and decrement dont work
+-cant use new keyword
+
+npm install -g @angular/cli
+
+ng help
+
+ng generate component login || ng g c login
+ng generate module user-auth || ng g m user-auth
+
+module vs component
+module is a complex and big functionality
+like user-auth has (login, register , change , update or forget password , email verification)
+these small chunks are component
+
+ng generate class
+
+can you change the selector name of a component yes you can in component-name.ts->selector:"your name"
+
+inline style and inline template
+why to use inline
+
+Module
+multiple component , services , helpers,
+module can't be reused
+
+important events:
+
+
+internal style , component style , global style (priority is from left to righ)
+
+property binding vs Interpolation
+property binding use to update the attributes
+property binding provide boolean values
+Interpolation only works for int and string
+when to change the property use property binding
+
+if else condition *ngIf
+
+there is no else if use ngIf condition and if there are mulitple conditions then use switch case
+ngSwitch ngSwitchCase ngSwitchDefault
+
+loop
+*ngFor ="let item of users"
+js loop can only be used in ts file and angular in html
+
+Style binding
+
+two types of form in angular
+1. template based form: handling in template file component.html
+2. reactive forms : handling in class file component.ts
+
+template driven form:
+
+reactive form and validators
+
+directive in angular
+ngIf, ngFor, ngSwitch
+directives provide additional features to the element
+ng g directive redEl
+we can create our own directives
+how can you change the value of an element with the help of directive?
+
+
+
+
+import angularform from @angular/forms
+
+Material UI: to use for the responsive view
+
+angular bootstarp
+
+sending data from parent to child
+sending data from child to parent
+
+two way bindings:
+to display and update the property at the same time
+
+template reference variable:#box #name
+
+typeScript: angular uses typeScript
+
+pipes :
+use of pipes: transfer data fomat from one to another , pipes can only be used in html files
+example uppercase | lowercase | date 'fullDate'|slice | json* |number |currency
+we can create custom pipes
+advance pipes:
+params with pipes
+
+Custome Pipes
+ng g p pipes/pkrUsd
+
+forms:
+

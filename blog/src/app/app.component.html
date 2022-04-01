@@ -1,0 +1,21 @@
+
+<!-- <app-login></app-login> -->
+<app-header></app-header>
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+<!-- <h1>Hello {{title}}</h1> -->
+
+<form #basicForm="ngForm" (submit)="getFormData(basicForm.value)">
+    <input type="text" ngModel placeholder="enter usrename" name="user">
+    <br><br>
+    <input type="text" ngModel placeholder="enter user email" name="email">
+    <br><br>
+    <input type="text" ngModel placeholder="enter user password" name="password">
+    <br><br>
+    <button>Regiter</button>
+</form>
+
+
+<!-- <button (click)="getData('hello')">Call-Func</button>
+<br/>
+<br/>
+<input type="text" (keyup)="getData('box')" placeholder="event keyup"> -->
