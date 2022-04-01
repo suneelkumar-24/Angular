@@ -108,5 +108,23 @@ params with pipes
 Custome Pipes
 ng g p pipes/pkrUsd
 
-forms:
+child routes
 
+services: are classess which contain data , property, functions which can be used in multiple files
+ng g service userdata
+
+to call api : first create service, then http call, add httpmodule import in module file
+
+model : define data structure and data validation (use interface)
+
+Routing Module : different routing for differnt modules like admin panel and user-panel it will increase performance
+ng g m admin --routing
+ng g m user --routing
+
+group routing admin/login user/login (use children path)
+
+lazy loading vs normal loading
+lazy loading applied over routing jin jin module p jate hen unke route load hote hen sirf
+when you are doing lazy loading dont import your modules direct to the app.modules.ts
+
+lazy loading component
